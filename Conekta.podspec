@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0.0"
   spec.summary      = "Token creation using Conekta"
   spec.description  = "Token creation using Conekta"
-  spec.homepage     = "https://github.com/conekta/conekta-ios"
+  spec.homepage     = "git@github.com:ammad-idealz/conekta-ios.git"
   spec.author       = "Conekta"
   spec.license      = "MIT"
 
