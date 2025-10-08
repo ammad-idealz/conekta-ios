@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "Conekta"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Token creation using Conekta"
   spec.description  = "Token creation using Conekta"
   spec.homepage     = "git@github.com:ammad-idealz/conekta-ios.git"
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = "14"
 
-  spec.source       = { :git => "git@github.com:ammad-idealz/conekta-ios.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/ammad-idealz/conekta-ios.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "Conekta/**/*.{h,m}"
 end
